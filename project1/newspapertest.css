@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'Engravers Old English';
+  src: url(OPTIEngraversOldEnglish.otf) format('opentype');
+}
+
+
+body{
+background-color: gray;
+margin-left: 50px;
+margin-right: 50px;
+border: 5px solid black;
+}
+
+p{
+
+font-size: 25px;
+
+}
+
+
+h2{
+
+font-size: 55px;
+white-space: pre;
+
+}
+
+strong{
+
+    font-size: 60px;
+
+}
+
+hr{
+
+border: 5px solid black;
+
+
+}
+
+.container{
+
+  border: 2px solid black; 
+  font-family: 'Engravers Old English';
+  font-size: 70px;
+  font-style: normal;
+  text-align: center;
+  
+
+}
+
+
+
+img{
+float: right;
+color-scheme: lightgray;
+border: 3px solid;
+
+}
+
+.container2{
+
+padding-top: 25px;
+
+}
+
+form{
+
+font-size: medium;
+
+}
+.about{
+
+  border: 3px solid black;
+  border-radius:8px 8px 8px 8px;
+  background-color: lightgray;
+  margin-right: 100px;
+}
+.yters{
+
+  border: 3px solid black;
+  
+}
+@keyframes lowerAd {
+  from { top: -80px; }
+  to { top: 40px; }
+}
+
+#advertisement1 {
+  animation-name: lowerAd;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  position: fixed;
+  right: 30px;
+  top: -80px;
+  width: 100px;
+  background: linear-gradient(grey, white);
+  box-shadow: 5px 5px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+
+#advertisement1:hover {
+  transform: scale(1.2, 1.2);
+}
+@keyframes lowerAd {
+  from { top: -100px; }
+  to { top: 30px; }
+}
+
+#advertisement2 {
+  animation-name: lowerAd;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  position: fixed;
+  right: 30px;
+  top: -80px;
+  width: 100px;
+  background: linear-gradient(grey, white);
+  box-shadow: 5px 5px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+}
+
+#advertisement2:hover {
+  transform: scale(1.2, 1.2);
+}
